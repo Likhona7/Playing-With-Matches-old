@@ -31,14 +31,15 @@ if (rand1 === rand2) {
   document.getElementById("div1").style.color = "blue";
   document.getElementById("div2").style.color = "blue";
 }
- else if (rand2 === rand3) {
+  if (rand2 === rand3) {
   document.getElementById("rowMatch").innerHTML = rand2 + " match ";
   document.getElementById("div2").classList.add("highlight");
   document.getElementById("div3").classList.add("highlight");
   document.getElementById("div2").style.color = "blue";
   document.getElementById("div3").style.color = "blue";
 
-} else if (rand1 === rand3) {
+}
+ if (rand1 === rand3) {
   document.getElementById("rowMatch").innerHTML = rand3 + " match ";
   document.getElementById("div1").classList.add("highlight");
   document.getElementById("div3").classList.add("highlight");
@@ -48,14 +49,15 @@ if (rand1 === rand2) {
 }
 
 //row2
-else if (rand4 === rand5) {
+ if (rand4 === rand5) {
   document.getElementById("rowMatch").innerHTML = rand4 + " match ";
   document.getElementById("div4").classList.add("highlight");
   document.getElementById("div5").classList.add("highlight");
   document.getElementById("div4").style.color = "blue";
   document.getElementById("div5").style.color = "blue";
 
-} else if (rand5 === rand6) {
+}
+ if (rand5 === rand6) {
   document.getElementById("rowMatch").innerHTML = rand5 + " match ";
   document.getElementById("div5").classList.add("highlight");
   document.getElementById("div6").classList.add("highlight");
@@ -64,7 +66,8 @@ else if (rand4 === rand5) {
 
 
 
-} else if (rand4 === rand6) {
+}
+  if (rand4 === rand6) {
   document.getElementById("rowMatch").innerHTML = rand6 + " match ";
   document.getElementById("div4").classList.add("highlight");
   document.getElementById("div6").classList.add("highlight");
@@ -75,14 +78,16 @@ else if (rand4 === rand5) {
 }
 
 //row3
-else if (rand7 === rand8) {
+
+ if (rand7 === rand8) {
   document.getElementById("rowMatch").innerHTML = rand7 + " match ";
   document.getElementById("div7").classList.add("highlight");
   document.getElementById("div8").classList.add("highlight");
   document.getElementById("div7").style.color = "blue";
   document.getElementById("div8").style.color = "blue";
 
-} else if (rand8 === rand9) {
+}
+ if (rand8 === rand9) {
   document.getElementById("rowMatch").innerHTML = rand8 + " match ";
   document.getElementById("div8").classList.add("highlight");
   document.getElementById("div9").classList.add("highlight");
@@ -90,7 +95,8 @@ else if (rand7 === rand8) {
   document.getElementById("div9").style.color = "blue";
 
 
-} else if (rand7 === rand9) {
+}
+if (rand7 === rand9) {
   document.getElementById("rowMatch").innerHTML = rand9 + " match ";
   document.getElementById("div7").classList.add("highlight");
   document.getElementById("div9").classList.add("highlight");
@@ -111,7 +117,8 @@ if (rand1 === rand4) {
   document.getElementById("div3").style.color = "white";
 
 
-} else if (rand4 === rand7) {
+}
+  if (rand4 === rand7) {
   document.getElementById("Col1Match").innerHTML = rand4 + " match ";
   document.getElementById("div4").classList.add("highlightcolumn");
   document.getElementById("div7").classList.add("highlightcolumn");
@@ -119,7 +126,8 @@ if (rand1 === rand4) {
   document.getElementById("div7").style.color = "white";
 
 
-} else if (rand1 === rand7) {
+}
+  if (rand1 === rand7) {
   document.getElementById("col1Match").innerHTML = rand7 + " match ";
   document.getElementById("div1").classList.add("highlightcolumn");
   document.getElementById("div7").classList.add("highlightcolumn");
@@ -130,19 +138,21 @@ if (rand1 === rand4) {
 }
 
 //column2
-else if (rand2 === rand5) {
+ if (rand2 === rand5) {
   document.getElementById("col1Match").innerHTML = rand4 + " match ";
   document.getElementById("div2").classList.add("highlightcolumn");
   document.getElementById("div5").classList.add("highlightcolumn");
   document.getElementById("div2").style.color = "white";
   document.getElementById("div5").style.color = "white";
-} else if (rand5 === rand8) {
+}
+ if (rand5 === rand8) {
   document.getElementById("col1Match").innerHTML = rand5 + " match ";
   document.getElementById("div5").classList.add("highlightcolumn");
   document.getElementById("div8").classList.add("highlightcolumn");
   document.getElementById("div5").style.color = "white";
   document.getElementById("div8").style.color = "white";
-} else if (rand2 === rand8) {
+}
+  if (rand2 === rand8) {
   document.getElementById("col1Match").innerHTML = rand6 + " match ";
   document.getElementById("div2").classList.add("highlightcolumn");
   document.getElementById("div8").classList.add("highlightcolumn");
@@ -153,14 +163,15 @@ else if (rand2 === rand5) {
 }
 
 //column3
-else if (rand3 === rand6) {
+ if (rand3 === rand6) {
   document.getElementById("col1Match").innerHTML = rand7 + " match ";
   document.getElementById("div3").classList.add("highlightcolumn");
   document.getElementById("div6").classList.add("highlightcolumn");
   document.getElementById("div3").style.color = "white";
   document.getElementById("div6").style.color = "white";
 
-} else if (rand6 === rand9) {
+}
+ if (rand6 === rand9) {
   document.getElementById("col1Match").innerHTML = rand8 + " match ";
   document.getElementById("div6").classList.add("highlightcolumn");
   document.getElementById("div9").classList.add("highlightcolumn");
@@ -168,7 +179,8 @@ else if (rand3 === rand6) {
   document.getElementById("div9").style.color = "white";
 
 
-} else if (rand3 === rand9) {
+}
+ if (rand3 === rand9) {
   document.getElementById("col1Match").innerHTML = rand9 + " match ";
   document.getElementById("div3").classList.add("highlightcolumn");
   document.getElementById("div9").classList.add("highlightcolumn");
@@ -189,7 +201,8 @@ if (rand1 === rand5) {
   document.getElementById("div5").style.color = "blue";
 
   console.log(rand1);
-} else if (rand5 === rand9) {
+}
+ if (rand5 === rand9) {
   document.getElementById("diagnalMatch").innerHTML = rand5 + " match ";
   document.getElementById("div5").classList.add("highlightdiagnal");
   document.getElementById("div9").classList.add("highlightdiagnal");
@@ -198,7 +211,8 @@ if (rand1 === rand5) {
 
   console.log(rand5);
 
-} else if (rand1 === rand9) {
+}
+ if (rand1 === rand9) {
   document.getElementById("diagnalMatch").innerHTML = rand9 + " match ";
   document.getElementById("div1").classList.add("highlightdiagnal");
   document.getElementById("div9").classList.add("highlightdiagnal");
@@ -209,7 +223,8 @@ if (rand1 === rand5) {
 }
 
 //diagnal2
-else if (rand3 === rand5) {
+
+ if (rand3 === rand5) {
   document.getElementById("diagnalMatch").innerHTML = rand3 + " match ";
   document.getElementById("div3").classList.add("highlightdiagnal");
   document.getElementById("div5").classList.add("highlightdiagnal");
@@ -217,7 +232,8 @@ else if (rand3 === rand5) {
   document.getElementById("div5").style.color = "blue";
 
   console.log(rand3);
-} else if (rand5 === rand7) {
+}
+ if (rand5 === rand7) {
   document.getElementById("diagnalMatch").innerHTML = rand5 + " match ";
   document.getElementById("div5").classList.add("highlightdiagnal");
   document.getElementById("div7").classList.add("highlightdiagnal");
@@ -225,7 +241,8 @@ else if (rand3 === rand5) {
   document.getElementById("div7").style.color = "blue";
 
   console.log(rand5);
-} else if (rand3 === rand7) {
+}
+ if (rand3 === rand7) {
   document.getElementById("diagnalMatch").innerHTML = rand7 + " match ";
   document.getElementById("div3").classList.add("highlightdiagnal");
   document.getElementById("div7").classList.add("highlightdiagnal");
